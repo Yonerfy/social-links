@@ -74,11 +74,18 @@ body {
   line-height: 150%;
   letter-spacing: 0;
 }
+.button:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
 
 @media screen and (max-width: 525px) {
   .card {
-    min-width: 279px;
-    width: 330px;
+    min-width: 250px;
+    width: 70%;
+  }
+  .button {
+    width: 60%;
   }
   #root {
     padding: 0 .2rem;
