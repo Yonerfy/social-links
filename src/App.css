@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background-color: #141414;
+  font-family: "Inter", sans-serif;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  min-width: 384px;
+}
+.card img {
+  border-radius: 50%;
+  width: 88px;
+  margin-top: 10px;
+}
+.card-title {
+  font-size: 1.5000em;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0;
+  margin-bottom: 0;
+}
+.card-sub-title {
+  color:#C4F82A;
+  font-size: 0.8750em;
+  margin-top: 0;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.card p {
+  margin-top: 20px;
+  font-size: 0.8750em;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #333333;
+  border: none;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: .5em 0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8750em;
+  width: 304px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 525px) {
+  .card {
+    min-width: 279px;
+    width: 330px;
+  }
+  #root {
+    padding: 0 .2rem;
+  }
+  
+}
